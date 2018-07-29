@@ -177,6 +177,11 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         template: "<cultural-festival-maryhill></cultural-festival-maryhill>"
     };
 
+    states["volunteercalendar"] = {
+        name: "volunteercalendar",
+        url: "^/volunteercalendar",
+        template: "<volunteercalendar></volunteercalendar>"
+    };
 
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(true);
